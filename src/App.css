@@ -7,10 +7,11 @@
 
 .greeting-container {
   font-size: 70px;
+  font-weight: bold;
   margin-bottom: 30px;
-  padding: 20px;
-  background-color: lightseagreen;
-  border-radius: 30px;
+  padding: 10px;
+  background-color: rgb(255, 179, 208);
+  border-radius: 50px;
 }
 
 .buttons {
@@ -20,17 +21,28 @@
   justify-content: center;
 }
 
+.buttonMini{
+  background-color: rgb(255, 116, 116);
+  color: rgb(137, 0, 0);
+}
+.buttonMini:hover{
+  background-color: lightpink;
+  color: black;
+  
+}
+
+
 .logo {
-  height: 6em;
+  height: 8em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 15px #646cffaa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 15px #61dafbaa);
 }
 
 @keyframes logo-spin {
